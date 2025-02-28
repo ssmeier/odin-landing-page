@@ -1,0 +1,113 @@
+/* Colors and fonts */
+:root {
+    --font: "ok";
+    --darkBlue: #1f2937;
+    --lightBlue: #3882f6;
+    --offWhite: #F9FAF8;
+    --lightGrey: #E5E7EB;
+    font-family: 'Roboto';
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    background-color: var(--darkBlue);
+    padding: 2% 5%;
+}
+
+header ul {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li {
+    display: block;
+    justify-content: right;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: var(--offWhite);
+}
+
+.hero {
+    display: flex;
+    background-color: var(--darkBlue);
+    color: var(--offWhite);;
+    padding: 5%
+}
+
+.hero-article {
+    margin-right: 3em;
+}
+
+.hero-main-text {
+    font-family: 'Roboto';
+    font-size: 48px;
+    font-weight: 900;
+    color: var(--offWhite);
+}
+
+.hero-secondary-text {
+    color: var(--lightGrey);
+    font-size: 18px;
+}
+
+.hero-button {
+    background-color: var(--lightBlue);
+    color: var(--offWhite);
+    margin-top: 1em;
+}
+
+.hero-image img {
+    width: 100%;
+    object-fit: cover;
+    border: none;
+}
+
+.image-section {
+    padding: 1em 5em;
+}
+
+.image-section h2 {
+    text-align: center;
+    padding: 1em;
+    font-size: 36px;
+    color: var(--darkBlue);
+    font-weight: 900;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+}
+
+.image-gallery figure {
+    padding: 0.5em;
+    margin: 0 1em;
+    display: block;
+    border-color: #3882f6;
+    border-style: solid;
+    justify-content: center;
+    border-radius: 10%;
+}
+
+.image-gallery figure img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+.image-gallery figure figcaption {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    color: var(--darkBlue);
+}
