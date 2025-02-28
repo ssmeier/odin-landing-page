@@ -73,6 +73,7 @@ header ul li {
 
 .image-section {
     padding: 1em 5em;
+    margin: 2%;
 }
 
 .image-section h2 {
@@ -110,4 +111,49 @@ header ul li {
     justify-content: center;
     margin: 0 auto;
     color: var(--darkBlue);
+}
+
+.quote-section {
+    background-color: var(--lightGrey);
+    padding: 2em;
+}
+
+.quote-section blockquote {
+    text-align: center;
+    padding: 1em;
+    color: var(--darkBlue);
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.quote-section p {
+    text-align: right;
+    color: var(--darkBlue);
+    font-weight: bold;
+    
+}
+
+.call-to-action {
+    display: flex;
+    margin: 12em;
+    padding: 2em;
+    background-color: var(--lightBlue);
+    border-radius: 10%;
+}
+
+.cta-article {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.cta-button {
+    margin: 2em;
+    padding: 0.25em;
+    background-color: var(--lightBlue);
+    color: #F9FAF8;
+    border-radius: 25%;
+    border-style: solid;
+    border-color: #F9FAF8;
+    font-size: 18px;
 }
